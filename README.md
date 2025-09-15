@@ -104,7 +104,8 @@ college-management-system/
 │   │   └── utils/
 │   └── public/
 └── README.md
-
+```
+## diagram
 
 
 ![uml diagram](assets/pic.png)
