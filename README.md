@@ -107,3 +107,7 @@ college-management-system/
 
 
 
+![uml diagram](assets/pic.png)
+![er diagram](assets/pic2.png)
+
+
