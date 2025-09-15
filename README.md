@@ -1,17 +1,10 @@
 # College Management System
 
-[![MERN Stack](https://img.shields.io/badge/Stack-MERN-blue)](https://www.mongodb.com/mern-stack)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Node.js](https://img.shields.io/badge/Node.js-v14+-green)](https://nodejs.org)
-[![React](https://img.shields.io/badge/React-v17+-blue)](https://reactjs.org)
-
-A comprehensive MERN stack-based College Management System that helps manage academic activities, student information, faculty details, and administrative tasks. This system streamlines the management of educational institutions by providing a centralized platform for administrators, faculty, and students.
-
 ## Features
 
 ### Admin Features
 
-- Manage faculty accounts with detailed profiles and emergency contacts
+- Manage faculty accounts with detiled profiles and emergency contacts
 - Manage student accounts with enrollment numbers and academic details
 - Manage academic branches
 - Handle subject/course management by semester and branch
@@ -46,17 +39,6 @@ A comprehensive MERN stack-based College Management System that helps manage aca
 - Database: MongoDB
 - Authentication: JWT
 
-## Prerequisites
-
-- Node.js
-- MongoDB
-- npm
-
-## Setup Instructions
-
-Project Setup Video Tutorial: https://youtu.be/gw4jh4RHzuo
-
-Sample .env file is added in both backend and frontend, copy that variables and create `.env` in both the folders and then follow below given instructions
 
 1. Clone the repository:
 
@@ -77,28 +59,7 @@ cd ../frontend
 npm install
 ```
 
-3. Create a `.env` file in the backend directory with the following variables:
-
-```
-MONGODB_URI =mongodb://127.0.0.1:27017/College-Management-System
-PORT = 4000
-FRONTEND_API_LINK = http://localhost:3000
-JWT_SECRET = THISISSECRET
-
-NODEMAILER_EMAIL =
-NODEMAILER_PASS =
-```
-
-4. Create a `.env` file in the frontend directory:
-
-```env
-REACT_APP_APILINK = http://localhost:4000/api
-
-REACT_APP_MEDIA_LINK = http://localhost:4000/media
-
-```
-
-5. Start the development servers:
+3. Start the development servers:
 
 ```bash
 # Start backend server (from backend directory)
@@ -143,18 +104,6 @@ college-management-system/
 │   │   └── utils/
 │   └── public/
 └── README.md
-```
 
-## For Any Doubt Feel Free To Contact Me 🚀
 
-- [My Website](http://krishjotaniya.netlify.app/)
-- [Linkedin](https://www.linkedin.com/in/krishjotaniya/)
-- [krishjotaniya71@gmail.com](mailto:krishjotaniya71@gmail.com)
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
