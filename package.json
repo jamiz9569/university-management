@@ -1,0 +1,9 @@
+
+{
+  "name": "college-management-system",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npm run build --prefix frontend",
+    "start": "node backend/index.js"
+  }
+}
