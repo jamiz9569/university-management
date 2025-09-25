@@ -1,22 +1,16 @@
 # Software Requirements Specification (SRS)
 ## College Management System
 
-**Document Version:** 1.0  
-**Date:** September 15, 2025  
-**Prepared By:** Development Team  
-
----
-
 ## Table of Contents
 
-1. [Introduction](#1-introduction)
-2. [Overall Description](#2-overall-description)
-3. [Specific Requirements](#3-specific-requirements)
-4. [System Features](#4-system-features)
-5. [External Interface Requirements](#5-external-interface-requirements)
-6. [Non-Functional Requirements](#6-non-functional-requirements)
-7. [Other Requirements](#7-other-requirements)
-8. [Appendices](#8-appendices)
+1. [Introduction]
+2. [Overall Description]
+3. [Specific Requirements]
+4. [System Features]
+5. [External Interface Requirements]
+6. [Non-Functional Requirements]
+7. [Other Requirements]
+8. [Appendices]
 
 ---
 
@@ -514,12 +508,3 @@ Medium - Essential for system administration
 2. Email service provider selection pending
 3. Mobile app development consideration for future phases
 4. Integration with existing institutional systems evaluation needed
-
----
-
-**Document Control:**
-- Version: 1.0
-- Last Updated: September 15, 2025
-- Next Review Date: October 15, 2025
-- Approval Status: Draft
-- Distribution: Development Team, Stakeholders
