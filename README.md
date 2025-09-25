@@ -71,7 +71,7 @@ npm start
 
 ## Initial Setup
 
-1. Create an admin account using the seeder:
+1. Create an admin , student and faculty  account using the seeder:
 
 ```bash
 cd backend
