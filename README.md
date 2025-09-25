@@ -78,16 +78,25 @@ cd backend
 npm run seed
 ```
 
-This will create a default admin account with the following credentials:
+This will create a default  account with the following credentials:
 
 - Employee ID: 123456
 - Password: admin123
 - Email: admin@gmail.com
 
+- Enrollment_no. : 123456
+- Password: student123
+- Email: student@gmail.com
+
+-  Employee ID: 123456
+- Password: faculty123
+- Email: faculty@gmail.com
+
 ## Project Structure
 
 ```
 college-management-system/
+├── Assets
 ├── backend/
 │   ├── controllers/
 │   │   ├── models/
@@ -103,6 +112,7 @@ college-management-system/
 │   │   ├── context/
 │   │   └── utils/
 │   └── public/
+├── Documentation
 └── README.md
 ```
 ## diagram
