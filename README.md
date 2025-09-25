@@ -83,11 +83,11 @@ This will create a default  account with the following credentials:
 - Employee ID: 123456
 - Password: admin123
 - Email: admin@gmail.com
-
+-----------------------------------------------------
 - Enrollment_no. : 123456
 - Password: student123
 - Email: student@gmail.com
-
+-----------------------------------------------------
 -  Employee ID: 123456
 - Password: faculty123
 - Email: faculty@gmail.com
@@ -112,6 +112,9 @@ college-management-system/
 │   │   ├── context/
 │   │   └── utils/
 │   └── public/
+├── .gitignore
+├── package.json
+├── package lock.json
 ├── Documentation
 └── README.md
 ```
