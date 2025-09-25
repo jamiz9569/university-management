@@ -10,6 +10,7 @@ const loginStudentController = async (req, res) => {
     const { email, password } = req.body;
 
     const user = await studentDetails.findOne({ email });
+    console.log(user);
 
     if (!user) {
       return ApiResponse.notFound("User not found").send(res);

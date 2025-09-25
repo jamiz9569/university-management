@@ -137,7 +137,7 @@ const Profile = ({ profileData }) => {
             <div>
               <label className="text-sm font-medium text-gray-500">Name</label>
               <p className="text-gray-900">
-                {profileData.emergencyContact.name}
+                {profileData.emergencyContact}
               </p>
             </div>
             <div>
@@ -145,13 +145,13 @@ const Profile = ({ profileData }) => {
                 Relationship
               </label>
               <p className="text-gray-900">
-                {profileData.emergencyContact.relationship}
+                {profileData.emergencyContact}
               </p>
             </div>
             <div>
               <label className="text-sm font-medium text-gray-500">Phone</label>
               <p className="text-gray-900">
-                {profileData.emergencyContact.phone}
+                {profileData.emergencyContact}
               </p>
             </div>
           </div>

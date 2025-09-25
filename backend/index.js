@@ -45,12 +45,12 @@ const cors = require("cors");
 
 connectToMongo();
 
-const port = process.env.PORT || 4000;
+const port = 4000;
 
 // Middleware
 app.use(
   cors({
-    origin: process.env.FRONTEND_API_LINK || "*", // allow all for now if undefined
+    origin: "*", // allow all for now if undefined
   })
 );
 

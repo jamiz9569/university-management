@@ -98,4 +98,4 @@ studentDetailsSchema.pre("save", async function (next) {
 
 const studentDetails = mongoose.model("StudentDetail", studentDetailsSchema);
 
-module.exports = studentDetails;
+module.exports = studentDetails; 
